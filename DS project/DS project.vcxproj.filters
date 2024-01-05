@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Cpp Files">
+      <UniqueIdentifier>{93c611c5-2553-4dd7-9218-c9d2c4daaf60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Used DS">
+      <UniqueIdentifier>{e41a6c16-2f7f-4a26-a967-0c422ba9aa0d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Mazen_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Process.cpp">
+      <Filter>Cpp Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scheduler.cpp">
+      <Filter>Cpp Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Processor_FCFS.cpp">
+      <Filter>Cpp Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Processor_RR.cpp">
+      <Filter>Cpp Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Processor_SJF.cpp">
+      <Filter>Cpp Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Processor_EDF.cpp">
+      <Filter>Cpp Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>Cpp Files</Filter>
+    </ClCompile>
+    <ClCompile Include="processor.cpp">
+      <Filter>Cpp Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Process.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="scheduler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="processor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Processor_FCFS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Processor_RR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Processor_SJF.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Processor_EDF.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Linkedqueue.h">
+      <Filter>Used DS</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedList.h">
+      <Filter>Used DS</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryTreeInterface.h">
+      <Filter>Used DS</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryNode.h">
+      <Filter>Used DS</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryNodeTree.h">
+      <Filter>Used DS</Filter>
+    </ClInclude>
+    <ClInclude Include="PeriorityQueue.h">
+      <Filter>Used DS</Filter>
+    </ClInclude>
+    <ClInclude Include="ListADT.h">
+      <Filter>Used DS</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
